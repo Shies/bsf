@@ -1,0 +1,19 @@
+{
+    "name": "swoole-bsf",
+    "description": "bilibili swoole framework.",
+    "authors": [
+        {
+            "name": "____Shies",
+            "email": "2kshies@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "bsf\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
